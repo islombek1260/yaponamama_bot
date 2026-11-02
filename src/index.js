@@ -34,7 +34,7 @@ const keyboard = {
 
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
-    bot.sendMessage(chatId, "Salom! Menga rasm yuboring, men uni kanalga yo'naltiraman.", keyboard);
+    bot.sendMessage(chatId, "Salom! Menga rasm yuboring, men uni barmenga yo'naltiraman.", keyboard);
 });
 
 bot.on('photo', (msg) => {
